@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:contentDescription="LogIn botton"
+        android:src="@drawable/ic_login_bg"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="194dp" />
+    <TextView
+        android:id="@+id/txtDetails"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#0278B5"
+        android:text="LogOut"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+</LinearLayout>
