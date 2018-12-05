@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav-fav"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Favorites">
+
+    </item>
+
+    <item
+        android:id="@+id/nav-home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home">
+
+    </item>
+
+    <item
+        android:id="@+id/nav-chat"
+        android:icon="@drawable/ic_message_black_24dp"
+        android:title="Chats">
+
+    </item>
+
+</menu>

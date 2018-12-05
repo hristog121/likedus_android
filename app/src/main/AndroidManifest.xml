@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PageActivity"
+            android:label="@string/title_activity_page" />
+        <activity
+            android:name=".TestNavActivity"
+            android:label="@string/title_activity_test_nav"></activity>
     </application>
 
 </manifest>

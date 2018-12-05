@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">linkedus_android</string>
+    <string name="title_activity_page">PageActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_test_nav">TestNavActivity</string>
 </resources>

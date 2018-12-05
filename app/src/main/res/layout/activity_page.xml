@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6897BB"
+        android:id="@+id/toolbar">
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="5dp"
+        card_view:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="6dp"
+            android:longClickable="true">
+
+            <ImageView
+                android:id="@+id/person_photo"
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/purple"
+
+
+                app:srcCompat="@drawable/ic_download"
+                android:layout_alignParentLeft="true" />
+
+
+            <TextView
+                android:id="@+id/txtMain1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_toEndOf="@+id/person_photo"
+                android:padding="10dp"
+                android:text="JiaqiZheng"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20dp"
+                android:layout_toRightOf="@+id/person_photo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtMain1"
+                android:id="@+id/id1"
+                android:layout_marginStart="8dp"
+                android:layout_alignLeft="@+id/txtMain1"
+                android:layout_toEndOf="@+id/txtMain1"
+                android:text="Infovis Developer"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/txtMain1" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/id2"
+                android:layout_below="@+id/id1"
+                android:layout_alignTop="@id/id1"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="16dp"
+                android:layout_toEndOf="@+id/person_photo"
+                android:layout_toRightOf="@+id/person_photo"
+                android:text="KTH Royal Institute of Technology"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginLeft="14dp" />
+
+
+            <ImageButton
+                android:id="@+id/parent_list_item_expand_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="right"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="94dp"
+                android:layout_marginBottom="0dp"
+                android:src="@android:drawable/arrow_down_float"
+                android:layout_marginRight="94dp"
+                android:layout_alignParentRight="true" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="5dp"
+        card_view:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="4dp"
+            android:longClickable="true">
+
+            <ImageView
+                android:id="@+id/person_photo1"
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/purple"
+
+                android:src="@drawable/ic_download"
+                android:layout_alignParentLeft="true" />
+
+
+            <TextView
+                android:id="@+id/txtMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_toEndOf="@+id/person_photo1"
+                android:layout_toRightOf="@+id/person_photo1"
+                android:padding="10dp"
+                android:text="JiaqiZheng"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtMain"
+                android:id="@+id/id12"
+                android:layout_marginStart="8dp"
+                android:layout_alignLeft="@+id/txtMain"
+                android:layout_toEndOf="@+id/txtMain"
+                android:text="Infovis Developer"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/txtMain" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/id21"
+                android:layout_below="@+id/id12"
+                android:layout_alignTop="@id/id12"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="16dp"
+                android:layout_toEndOf="@+id/person_photo1"
+                android:layout_toRightOf="@+id/person_photo1"
+                android:text="KTH Royal Institute of Technology"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginLeft="14dp" />
+
+
+
+            <ImageButton
+                android:id="@+id/parent_list_item_expand_arrow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="94dp"
+                android:layout_marginBottom="0dp"
+                android:src="@android:drawable/arrow_down_float"
+                android:layout_marginRight="94dp"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <include layout="@layout/bottomnav"/>
+
+
+</LinearLayout>

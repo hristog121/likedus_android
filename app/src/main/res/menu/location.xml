@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:title="search"
+        android:orderInCategory="40"
+        android:icon="@drawable/ic_search_black_24dp"
+
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <item
+        android:id="@+id/action-locate"
+        android:orderInCategory="80"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        android:title="location"
+        app:showAsAction="always"/>
+
+</menu>
